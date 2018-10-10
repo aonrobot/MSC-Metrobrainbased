@@ -1,6 +1,7 @@
 <template>
     <div>
         <agile :infinite="true">
+            <div class="slide slide--0"></div>
             <div class="slide slide--1"></div>
             <div class="slide slide--2"></div>
             <div class="slide slide--3"></div>

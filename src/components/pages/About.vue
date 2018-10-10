@@ -5,7 +5,8 @@
       <div class="tile is-vertical is-12">
         <div class="tile is-parent">
           <article class="tile is-child is-info notification">
-            <p class="is-size-3">วัตถุประสงค์ของโครงการ</p>
+            <!-- <p class="is-size-3">วัตถุประสงค์ของโครงการ</p> -->
+            <img src="@/assets/title/obj.png" alt="">
             <br>
             <div class="content">
               <nav class="level">
@@ -32,12 +33,7 @@
             <p class="is-size-3"> รูปแบบการนำเสนอ ในแต่ละรอบ</p>
             <br>
             <div class="content">
-              <ul class="steps">
-                <li class="active is-size-2"><p>รอบรับสมัคร</p></li>
-                <li class="undone"><p>รอบ Audition2</p></li>
-                <li class="undone"><p>รอบ Battle</p></li>
-                <li class="undone"><p>รอบ Final</p></li>
-              </ul>
+              <img src="@/assets/section/present/present1.png" alt="" srcset="" width="70%">
             </div>
             <br>
           </article>
@@ -45,49 +41,7 @@
       </div>
     </div>
 
-    <div class="tile is-ancestor">
-      <div class="tile is-vertical is-12">
-        <div class="tile is-parent">
-          <article class="tile is-child is-primary notification">
-            <p class="is-size-3"><font-awesome-icon :icon="['fas', 'file-invoice-dollar']" size="lg"/> Brain Based Benefit</p>
-            <br>
-            <div class="content">
-              <nav class="level">
-                <div class="level-item has-text-centered">
-                  <div>
-                    <img src="https://cdn1.iconfinder.com/data/icons/ecommerce-61/48/eccomerce_-_carton_box-128.png" alt="" srcset="">
-                    <p class="subtitle">Think out of The box</p>
-                    <p class="is-size-6">เปิดโอกาสให้คุณได้คิดนอกกรอบ</p>
-                  </div>
-                </div>
-                <div class="level-item has-text-centered">
-                  <div>
-                    <img src="https://cdn1.iconfinder.com/data/icons/ecommerce-61/48/eccomerce_-_carton_box-128.png" alt="" srcset="">
-                    <p class="subtitle">Funding to 1 million baht</p>
-                    <p class="is-size-6">พิชิตเงินรางวัลมูลค่ารวมกว่า 1 ล้านบาท</p>
-                  </div>
-                </div>
-                <div class="level-item has-text-centered">
-                  <div>
-                    <img src="https://cdn1.iconfinder.com/data/icons/ecommerce-61/48/eccomerce_-_carton_box-128.png" alt="" srcset="">
-                    <p class="subtitle">Entrepreneur  Mentoring</p>
-                    <p class="is-size-6">โอกาสเพื่อพัฒนาและต่อยอด <br>Startup ของคุณ ให้แข็งแกร่งมากยิ่งขึ้น</p>
-                  </div>
-                </div>
-                <div class="level-item has-text-centered">
-                  <div>
-                    <img src="https://cdn1.iconfinder.com/data/icons/ecommerce-61/48/eccomerce_-_carton_box-128.png" alt="" srcset="">
-                    <p class="subtitle">MSC StartUp Family</p>
-                    <p class="is-size-6">ร่วมเป็นส่วนหนึ่งใน MSC StartUp <br>ที่เป็นมากกว่าครอบครัวและคำแนะนำต่างๆ<br>จากเหล่าผู้เชี่ยวชาญมากประสบการณ์</p>
-                  </div>
-                </div>
-              </nav>
-            </div>
-            <br>
-          </article>
-        </div>
-      </div>
-    </div>
+    <bebefit-section></bebefit-section>
 
     <div class="tile is-ancestor">
       <div class="tile is-vertical is-12">
@@ -122,8 +76,9 @@
       <div class="tile is-vertical is-12">
         <div class="tile is-parent">
           <article class="tile is-child is-warning notification">
-            <p class="is-size-3"> Criteria</p>
-            <br>
+            <!-- <p class="is-size-3"> Criteria</p> -->
+            <img src="@/assets/title/criteria.png" alt="">
+            <br><br>
             <div class="content">
               <p class="is-size-5">StartUp ที่ผ่านการคัดเลือกได้ ต้องได้รับความเห็นชอบจาก Internal & External Committee</p>
               <p class="is-size-5">โดย<b>หลักเกณฑ์การพิจารณา</b> มีดังนี้</p>
@@ -135,14 +90,78 @@
                       <article class="tile is-child notification is-info">
                         <div class="content">
                           <p class="title">รอบ Audition</p>
-                          <div class="content">
+                          <!-- <div class="content">
                             <ul>
                               <li><b>Initiative (แนวคิดริเริ่มสร้างสรรค์)</b> ที่มีความน่าสนใจ และสามารถนำไปพัฒนาต่อได้จริง</li>
                               <li><b>Benefit (ประโยชน์)</b> ที่คาดว่าจะเกิดขึ้นกับ Stakeholder</li>
                               <li><b>Market Opportunity (โอกาสทางธุรกิจ)</b> ความเป็นไปได้ของโครงการ หรือกลุ่มเป้าหมาย ขนาดตลาด หรือศักยภาพในการเติบโตของตลาด</li>
                               <li><b>Presentation + Q&A</b> ผู้เข้าแข่งขันต้องแสดงความสามารถในการนำเสนอผลงาน และตอบคำถามต่อคณะกรรมการ <br>ในรอบชิงชนะเลิศ โดยใช้หลักเกณฑ์เดียวกับรอบคัดเลือกในทุกรอบการแข่งขัน</li>
                             </ul>
-                          </div>
+                          </div> -->
+                          <article class="media about-media">
+                            <figure class="media-left">
+                              <p class="image is-128x128">
+                                <img src="@/assets/section/criteria/Initiative.png" alt="">
+                              </p>
+                            </figure>
+                            <div class="media-content">
+                              <div class="content">
+                                <p>
+                                  <strong>Initiative</strong> <small>(แนวคิดริเริ่มสร้างสรรค์)</small>
+                                  <br>
+                                  ที่มีความน่าสนใจ และสามารถนำไปพัฒนาต่อได้จริง
+                                </p>
+                              </div>
+                            </div>
+                          </article>
+                          <article class="media about-media">
+                            <figure class="media-left">
+                              <p class="image is-128x128">
+                                <img src="@/assets/section/criteria/Benefit.png" alt="">
+                              </p>
+                            </figure>
+                            <div class="media-content">
+                              <div class="content">
+                                <p>
+                                  <strong>Benefit</strong> <small>(ประโยชน์)</small>
+                                  <br>
+                                  ที่คาดว่าจะเกิดขึ้นกับ Stakeholder
+                                </p>
+                              </div>
+                            </div>
+                          </article>
+                          <article class="media about-media">
+                            <figure class="media-left">
+                              <p class="image is-128x128">
+                                <img src="@/assets/section/criteria/Opportunity.png" alt="">
+                              </p>
+                            </figure>
+                            <div class="media-content">
+                              <div class="content">
+                                <p>
+                                  <strong>Market Opportunity</strong> <small>(โอกาสทางธุรกิจ)</small>
+                                  <br>
+                                  ความเป็นไปได้ของโครงการ หรือกลุ่มเป้าหมาย ขนาดตลาด หรือศักยภาพในการเติบโตของตลาด
+                                </p>
+                              </div>
+                            </div>
+                          </article>
+                          <article class="media about-media">
+                            <figure class="media-left">
+                              <p class="image is-128x128">
+                                <img src="@/assets/section/criteria/Presentation.png" alt="">
+                              </p>
+                            </figure>
+                            <div class="media-content">
+                              <div class="content">
+                                <p>
+                                  <strong>Presentation + Q&A</strong>
+                                  <br>
+                                  ผู้เข้าแข่งขันต้องแสดงความสามารถในการนำเสนอผลงาน และตอบคำถามต่อคณะกรรมการ ในรอบชิงชนะเลิศ โดยใช้หลักเกณฑ์เดียวกับรอบคัดเลือกในทุกรอบการแข่งขัน
+                                </p>
+                              </div>
+                            </div>
+                          </article>
                         </div>
                       </article>
                     </div>
@@ -152,15 +171,95 @@
                   <article class="tile is-child notification is-danger">
                     <div class="content">
                       <p class="title">รอบ Battle และ Final</p>
-                      <div class="content">
+                      <article class="media about-media">
+                        <figure class="media-left">
+                          <p class="image is-128x128">
+                            <img src="@/assets/section/criteria/idea-copyright.png" alt="">
+                          </p>
+                        </figure>
+                        <div class="media-content">
+                          <div class="content">
+                            <p>
+                              <strong>Initiative Idea</strong> <small>(ความคิดริเริ่มสร้างสรรค์)</small>
+                              <br>
+                              ที่มีความน่าสนใจและสามารถที่จะนำไปใช้ได้จริง/ขยายโอกาสทางธุรกิจได้
+                            </p>
+                          </div>
+                        </div>
+                      </article>
+                      <article class="media about-media">
+                        <figure class="media-left">
+                          <p class="image is-128x128">
+                            <img src="@/assets/section/criteria/effort.png" alt="">
+                          </p>
+                        </figure>
+                        <div class="media-content">
+                          <div class="content">
+                            <p>
+                              <strong>Implement effort</strong> <small>(ความพยายาม/ความทุ่มเท)</small>
+                              <br>
+                              อธิบายคุณสมบัติ (attributes) และการนำไปใช้
+                            </p>
+                          </div>
+                        </div>
+                      </article>
+                      <article class="media about-media">
+                        <figure class="media-left">
+                          <p class="image is-128x128">
+                            <img src="@/assets/section/criteria/value.png" alt="">
+                          </p>
+                        </figure>
+                        <div class="media-content">
+                          <div class="content">
+                            <p>
+                              <strong>Value</strong> <small>(คุณค่า)</small>
+                              <br>
+                              สามารถอธิบายคุณประโยชน์ที่โดดเด่นของนวัตกรรมได้อย่างชัดเจนว่าสามารถตอบโจทย์ / แก้ปัญหาได้อย่างโดนใจเหนือกว่าทางเลือกอื่นๆที่มีอย่างไร สร้างความว้าวด้วยอะไร อย่างไรกำกับดูแล และสนับสนุนการดำเนินงานของลูกทีม 
+                            </p>
+                          </div>
+                        </div>
+                      </article>
+                      <article class="media about-media">
+                        <figure class="media-left">
+                          <p class="image is-128x128">
+                            <img src="@/assets/section/criteria/Feasibility.png" alt="">
+                          </p>
+                        </figure>
+                        <div class="media-content">
+                          <div class="content">
+                            <p>
+                              <strong>Feasibility</strong> <small>(ความเป็นไปได้ของโครงการ)</small>
+                              <br>
+                              โดยพิจารณาความคุ้มค่าของการลงทุน และระยะเวลาในการดำเนินงาน
+                            </p>
+                          </div>
+                        </div>
+                      </article>
+                      <article class="media about-media">
+                        <figure class="media-left">
+                          <p class="image is-128x128">
+                            <img src="@/assets/section/criteria/Presentation.png" alt="">
+                          </p>
+                        </figure>
+                        <div class="media-content">
+                          <div class="content">
+                            <p>
+                              <strong>Intellectual property</strong> <small>(ทรัพย์สินทางปัญญา)</small>
+                              <br>
+                              หากสิ่งนั้นสามารถนำไปจดเป็นลิขสิทธิ์ของบริษัทได้ (+15)
+                            </p>
+                          </div>
+                        </div>
+                      </article>
+                      <!-- <div class="content">
                         <ul>
-                              <li><b>Initiative Idea (ความคิดริเริ่มสร้างสรรค์)</b> ที่มีความน่าสนใจและสามารถที่จะนำไปใช้ได้จริง/ขยายโอกาสทางธุรกิจได้</li>
-                              <li><b>Implement effort (ความพยายาม/ความทุ่มเท)</b> อธิบายคุณสมบัติ (attributes) และการนำไปใช้</li>
-                              <li><b>Value (คุณค่า)</b> สามารถอธิบายคุณประโยชน์ที่โดดเด่นของนวัตกรรมได้อย่างชัดเจนว่าสามารถตอบโจทย์ / แก้ปัญหาได้อย่างโดนใจเหนือกว่าทางเลือกอื่นๆที่มีอย่างไร <br>สร้างความว้าวด้วยอะไร อย่างไรกำกับดูแล และสนับสนุนการดำเนินงานของลูกทีม </li>
-                              <li><b>Feasibility (ความเป็นไปได้ของโครงการ)</b> โดยพิจารณาความคุ้มค่าของการลงทุน และระยะเวลาในการดำเนินงาน</li>
-                              <li><b>Intellectual property (ทรัพย์สินทางปัญญา)</b> หากสิ่งนั้นสามารถนำไปจดเป็นลิขสิทธิ์ของบริษัทได้ (+15)</li>
-                            </ul>
-                      </div>
+                          <li><b>Initiative Idea (ความคิดริเริ่มสร้างสรรค์)</b> ที่มีความน่าสนใจและสามารถที่จะนำไปใช้ได้จริง/ขยายโอกาสทางธุรกิจได้</li>
+                          <li><b>Implement effort (ความพยายาม/ความทุ่มเท)</b> อธิบายคุณสมบัติ (attributes) และการนำไปใช้</li>
+                          <li><b>Value (คุณค่า)</b> สามารถอธิบายคุณประโยชน์ที่โดดเด่นของนวัตกรรมได้อย่างชัดเจนว่าสามารถตอบโจทย์ / แก้ปัญหาได้อย่างโดนใจเหนือกว่าทางเลือกอื่นๆที่มีอย่างไร <br>สร้างความว้าวด้วยอะไร อย่างไรกำกับดูแล และสนับสนุนการดำเนินงานของลูกทีม </li>
+                          <li><b>Feasibility (ความเป็นไปได้ของโครงการ)</b> โดยพิจารณาความคุ้มค่าของการลงทุน และระยะเวลาในการดำเนินงาน</li>
+                          <li><b>Intellectual property (ทรัพย์สินทางปัญญา)</b> หากสิ่งนั้นสามารถนำไปจดเป็นลิขสิทธิ์ของบริษัทได้ (+15)</li>
+                        </ul>
+                      </div> -->
                     </div>
                   </article>
                 </div>
@@ -176,8 +275,9 @@
       <div class="tile is-vertical is-12">
         <div class="tile is-parent">
           <article class="tile is-child notification">
-            <p class="is-size-3"> เงินรางวัล</p>
-            <br>
+            <!-- <p class="is-size-3"> เงินรางวัล</p> -->
+            <img src="@/assets/title/reward.png" alt="">
+            <br><br>
             <div class="content">
               <nav class="level">
                 <div class="level-item has-text-centered">
@@ -219,57 +319,12 @@
     <div class="tile is-ancestor">
       <div class="tile is-vertical is-12">
         <div class="tile is-parent">
-          <article class="tile is-child is-success notification">
-            <p class="is-size-3"> Timeline</p>
-            <br>
+          <article class="tile is-child notification" style="background-color:#F8F8F8">
+            <!-- <p class="is-size-3"> Timeline</p> -->
+            <img src="@/assets/title/timeline.png" alt="">
+            <br><br>
             <div class="content">
-              <ul class="timeline">
-
-                <!-- Item 1 -->
-                <li>
-                  <div class="direction-r">
-                    <div class="flag-wrapper">
-                      <span class="flag">Register</span>
-                      <span class="time-wrapper"><span class="time">Now - 15 Dec 2018</span></span>
-                    </div>
-                    <div class="desc">Register @ G Building</div>
-                  </div>
-                </li>
-                
-                <!-- Item 2 -->
-                <li>
-                  <div class="direction-l">
-                    <div class="flag-wrapper">
-                      <span class="flag">STATE 1 | Audition</span>
-                      <span class="time-wrapper"><span class="time">June 2019</span></span>
-                    </div>
-                    <div class="desc">Compettition Date</div>
-                  </div>
-                </li>
-
-                <!-- Item 3 -->
-                <li>
-                  <div class="direction-r">
-                    <div class="flag-wrapper">
-                      <span class="flag">STATE 2 | Battle</span>
-                      <span class="time-wrapper"><span class="time">Mar 2019</span></span>
-                    </div>
-                    <div class="desc">Compettition Date</div>
-                  </div>
-                </li>
-
-                <!-- Item 4 -->
-                <li>
-                  <div class="direction-l">
-                    <div class="flag-wrapper">
-                      <span class="flag">STATE 3 | Final</span>
-                      <span class="time-wrapper"><span class="time">May 2019</span></span>
-                    </div>
-                    <div class="desc">Compettition Date</div>
-                  </div>
-                </li>
-                
-              </ul>
+              <img src="@/assets/roadmap.jpg" alt="" width="80%">
             </div>
             <br>
           </article>
@@ -284,12 +339,14 @@
 <script>
 
 import Slide from "@/components/Slide"
+import Benefit from "@/components/Benefit"
 
 export default {
   name: 'About',
   meta: { title: 'About' },
   components: {
-    'slide': Slide
+    'slide-section': Slide,
+    'bebefit-section': Benefit
   },
   data() {
     return {
@@ -311,6 +368,10 @@ export default {
   li {
       display: list-item;
       margin: 0 10px;
+  }
+
+  .about-media {
+    align-items: center;
   }
 
   .is-ancestor {

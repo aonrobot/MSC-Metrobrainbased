@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from '@/components/pages/Home'
 import About from '@/components/pages/About'
 import Coach from '@/components/pages/Coach'
+import ContactUs from '@/components/pages/ContactUs'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/coach',
       name: 'Coach',
       component: Coach
+    },
+    {
+      path: '/contactus',
+      name: 'ContactUs',
+      component: ContactUs
     }
   ]
 })

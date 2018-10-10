@@ -25,13 +25,13 @@
           <span class="navbar-text">Coach & Committee</span>
         </router-link>
 
-        <router-link class="navbar-item" to="/download">
+        <router-link class="navbar-item" to="/contactus">
           <span class="navbar-text">Contact Us</span>
         </router-link>
 
-        <router-link class="navbar-item" to="/news">
+        <!-- <router-link class="navbar-item" to="/news">
           <span class="navbar-text">Register</span>
-        </router-link>
+        </router-link> -->
       </div>
 
       <div class="navbar-end">

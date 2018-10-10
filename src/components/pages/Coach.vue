@@ -62,29 +62,91 @@
                     <nav class="level">
                         <div class="level-item has-text-centered">
                             <div>
-                            <p class="heading"><img src="https://cdn1.iconfinder.com/data/icons/user-pictures/100/male3-128.png" alt="" srcset=""></p><br>
-                            <p class="heading">facebook like</p>
+                            <p class="heading">
+                                <figure class="image is-128x128">
+                                    <img class="is-rounded" src="@/assets/coach/member/1.jpg" width="128px"/>
+                                </figure>
+                            </p>
+                            <p class="heading coach-heading">facebook like</p>
                             <p class="subtitle">ตำแหน่ง</p>
                             </div>
                         </div>
                         <div class="level-item has-text-centered">
                             <div>
-                            <p class="heading"><img src="https://cdn1.iconfinder.com/data/icons/user-pictures/100/female1-128.png" alt="" srcset=""></p><br>
-                            <p class="heading">facebook like</p>
+                            <p class="heading">
+                                <figure class="image is-128x128">
+                                    <img class="is-rounded" src="@/assets/coach/member/4.jpg" width="128px"/>
+                                </figure>
+                            </p>
+                            <p class="heading coach-heading">facebook like</p>
                             <p class="subtitle">ตำแหน่ง</p>
                             </div>
                         </div>
                         <div class="level-item has-text-centered">
                             <div>
-                            <p class="heading"><img src="https://cdn1.iconfinder.com/data/icons/user-pictures/100/male3-128.png" alt="" srcset=""></p><br>
-                            <p class="heading">facebook like</p>
+                            <p class="heading">
+                                <figure class="image is-128x128">
+                                    <img class="is-rounded" src="@/assets/coach/member/5.jpg" width="128px"/>
+                                </figure>
+                            </p>
+                            <p class="heading coach-heading">facebook like</p>
                             <p class="subtitle">ตำแหน่ง</p>
                             </div>
                         </div>
                         <div class="level-item has-text-centered">
                             <div>
-                            <p class="heading"><img src="https://cdn1.iconfinder.com/data/icons/user-pictures/100/female1-128.png" alt="" srcset=""></p><br>
-                            <p class="heading">facebook like</p>
+                            <p class="heading">
+                                <figure class="image is-128x128">
+                                    <img class="is-rounded" src="@/assets/coach/member/6.jpg" width="128px"/>
+                                </figure>
+                            </p>
+                            <p class="heading coach-heading">facebook like</p>
+                            <p class="subtitle">ตำแหน่ง</p>
+                            </div>
+                        </div>
+                    </nav>
+                    <nav class="level">
+                        <div class="level-item has-text-centered">
+                            <div>
+                            <p class="heading">
+                                <figure class="image is-128x128">
+                                    <img class="is-rounded" src="@/assets/coach/member/2.jpg" width="128px"/>
+                                </figure>
+                            </p>
+                            <p class="heading coach-heading">facebook like</p>
+                            <p class="subtitle">ตำแหน่ง</p>
+                            </div>
+                        </div>
+                        <div class="level-item has-text-centered">
+                            <div>
+                            <p class="heading">
+                                <figure class="image is-128x128">
+                                    <img class="is-rounded" src="@/assets/coach/member/3.jpg" width="128px"/>
+                                </figure>
+                            </p>
+                            <p class="heading coach-heading">facebook like</p>
+                            <p class="subtitle">ตำแหน่ง</p>
+                            </div>
+                        </div>
+                        <div class="level-item has-text-centered">
+                            <div>
+                            <p class="heading">
+                                <figure class="image is-128x128">
+                                    <img class="is-rounded" src="@/assets/coach/member/7.jpg" width="128px"/>
+                                </figure>
+                            </p>
+                            <p class="heading coach-heading">facebook like</p>
+                            <p class="subtitle">ตำแหน่ง</p>
+                            </div>
+                        </div>
+                        <div class="level-item has-text-centered">
+                            <div>
+                            <p class="heading">
+                                <figure class="image is-128x128">
+                                    <img class="is-rounded" src="@/assets/coach/member/8.jpg" width="128px"/>
+                                </figure>
+                            </p>
+                            <p class="heading coach-heading">facebook like</p>
                             <p class="subtitle">ตำแหน่ง</p>
                             </div>
                         </div>
@@ -172,5 +234,8 @@ export default {
   li {
       display: list-item;
       margin: 0 10px;
+  }
+  .coach-heading {
+      margin-top: 5.5em;
   }
 </style>
