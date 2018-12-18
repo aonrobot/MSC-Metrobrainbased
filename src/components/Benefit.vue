@@ -2,7 +2,7 @@
     <div class="tile is-ancestor">
       <div class="tile is-vertical is-12">
         <div class="tile is-parent">
-          <article class="tile is-child notification">
+          <article class="tile is-child">
             <!-- <p class="title"><font-awesome-icon :icon="['fas', 'file-invoice-dollar']" size="lg"/> Brain Based Benefit</p> -->
             <img src="@/assets/title/benefit.png" alt="">
             <br><br>
@@ -57,7 +57,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
     .benefit-subtitle {
         margin-bottom: 0em!important;
         padding-bottom: 0.5em;

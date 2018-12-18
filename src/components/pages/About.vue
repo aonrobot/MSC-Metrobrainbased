@@ -4,7 +4,7 @@
     <div class="tile is-ancestor">
       <div class="tile is-vertical is-12">
         <div class="tile is-parent">
-          <article class="tile is-child is-info notification">
+          <article class="tile is-child is-info notification" style="background-color:#00428c;">
             <!-- <p class="is-size-3">วัตถุประสงค์ของโครงการ</p> -->
             <img src="@/assets/title/obj.png" alt="">
             <br>
@@ -30,10 +30,51 @@
       <div class="tile is-vertical is-12">
         <div class="tile is-parent">
           <article class="tile is-child notification">
-            <p class="is-size-3"> รูปแบบการนำเสนอ ในแต่ละรอบ</p>
+            <p class="is-size-3"> เงื่อนไขการรับสมัคร</p>
             <br>
             <div class="content">
-              <img src="@/assets/section/present/present1.png" alt="" srcset="" width="70%">
+              <nav class="level">
+                <div class="level-item">
+                    <ul>
+                      <li>เป็นพนักงานของบริษัทและบริษัทในเครือ ทั้งพนักงานประจำและพนักงาน Contract</li>
+                      <li>ผู้เข้าแข่งขัน มีสมาชิกต่อทีม ไม่เกิน 5 คน</li>
+                      <li>ผู้เข้าแข่งขันสามารถสมัครได้ 1 คน ต่อ 1 ทีม เท่านั้น</li>
+                      <li>แต่ละทีมเลือกประเภทการสมัครอย่างใดอย่างหนึ่ง ดังนี้</li>
+                    </ul>
+                </div>
+              </nav>
+              <hr>
+              <div class="tile is-ancestor">
+                <div class="tile is-vertical is-12">
+                  <div class="tile is-parent">
+                    <article class="tile is-child">
+                      <div class="content">
+                        <nav class="level">
+                          <div class="level-item has-text-centered">
+                            <div>
+                              <p class="subtitle about-subtitle">1. Process Innovation</p>
+                              <p class="heading about-heading">การพัฒนาวิธีการทำงานใหม่เพื่อ<br>ให้เกิดประสิทธิผลสูงขึ้น</p>
+                            </div>
+                          </div>
+                          <div class="level-item has-text-centered">
+                            <div>
+                              <p class="subtitle about-subtitle">2. Solution Innovation</p>
+                              <p class="heading about-heading">การพัฒนาผลิตภัณฑ์ใหม่ การให้บริการ หรือ<br>องค์ประกอบของผลิตภัณฑ์ ตรงตามความต้องการของลูกค้า</p>
+                            </div>
+                          </div>
+                          <div class="level-item has-text-centered">
+                            <div>
+                              <p class="subtitle about-subtitle">3. Business Model Innovation</p>
+                              <p class="heading about-heading">การพัฒนารูปแบบทางธุรกิจใหม่<br>ที่สร้างความสามารถในการแข่งขันขององค์กร</p>
+                            </div>
+                          </div>
+                        </nav>
+                      </div>
+                      <br>
+                    </article>
+                  </div>
+                </div>
+              </div>
             </div>
             <br>
           </article>
@@ -41,9 +82,22 @@
       </div>
     </div>
 
-    <bebefit-section></bebefit-section>
-
     <div class="tile is-ancestor">
+      <div class="tile is-vertical is-12">
+        <div class="tile is-parent">
+          <article class="tile is-child">
+            <p class="is-size-3"> รูปแบบการนำเสนอ ในแต่ละรอบ</p>
+            <br>
+            <div class="content">
+              <img src="@/assets/section/present/RULE.jpg" alt="" srcset="" width="90%">
+            </div>
+            <br>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="tile is-ancestor">
       <div class="tile is-vertical is-12">
         <div class="tile is-parent">
           <article class="tile is-child notification">
@@ -53,7 +107,7 @@
               <nav class="level">
                 <div class="level-item">
                     <ul>
-                      <li>ความเป็นมาของความท้าทาย หรือ ปัญหาที่มี หรือ อาจจะมี  โดยพิจารณาจากปัญหาที่มีอยู่แล้วนำมาแก้ไข หรือ จะหาแนวทางใหม่ๆ <br> เพื่อให้องค์กรดีขึ้น  พัฒนาขึ้น  ให้นำสิ่งที่เป็นจริงมาปฏิบัติ</li>
+                      <li>ความเป็นมาของความท้าทาย , ปัญหาที่มี หรือ อาจจะมี  โดยพิจารณาจากปัญหาที่มีอยู่แล้วนำมาแก้ไข หรือ จะหาแนวทางใหม่ๆ <br> เพื่อให้องค์กรดีขึ้น  พัฒนาขึ้น  ให้นำสิ่งที่เป็นจริงมาปฏิบัติ</li>
                       <li>วัตถุประสงค์ของการทำโครงการ</li>
                       <li>ประโยชน์ที่คาดว่าจะได้รับจากโครงการนี้</li>
                       <li>เครื่องมือที่ใช้มีอะไรบ้าง  (นำมาจากแนวทางที่เรียน  แต่ควรไปค้นคว้าเพิ่มเติมด้วย)</li>
@@ -70,12 +124,12 @@
           </article>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="tile is-ancestor">
       <div class="tile is-vertical is-12">
         <div class="tile is-parent">
-          <article class="tile is-child is-warning notification">
+          <article class="tile is-child notification">
             <!-- <p class="is-size-3"> Criteria</p> -->
             <img src="@/assets/title/criteria.png" alt="">
             <br><br>
@@ -89,7 +143,7 @@
                     <div class="tile is-parent is-vertical">
                       <article class="tile is-child notification is-info">
                         <div class="content">
-                          <p class="title">รอบ Audition</p>
+                          <p class="title">รอบ Pitching</p>
                           <!-- <div class="content">
                             <ul>
                               <li><b>Initiative (แนวคิดริเริ่มสร้างสรรค์)</b> ที่มีความน่าสนใจ และสามารถนำไปพัฒนาต่อได้จริง</li>
@@ -168,13 +222,13 @@
                   </div>
                 </div>
                 <div class="tile is-parent">
-                  <article class="tile is-child notification is-danger">
+                  <article class="tile is-child notification is-danger" style="background-color:#00428c;">
                     <div class="content">
                       <p class="title">รอบ Battle และ Final</p>
                       <article class="media about-media">
                         <figure class="media-left">
                           <p class="image is-128x128">
-                            <img src="@/assets/section/criteria/idea-copyright.png" alt="">
+                            <img src="@/assets/section/criteria/Initiative.png" alt="">
                           </p>
                         </figure>
                         <div class="media-content">
@@ -238,7 +292,7 @@
                       <article class="media about-media">
                         <figure class="media-left">
                           <p class="image is-128x128">
-                            <img src="@/assets/section/criteria/Presentation.png" alt="">
+                            <img src="@/assets/section/criteria/idea-copyright.png" alt="">
                           </p>
                         </figure>
                         <div class="media-content">
@@ -271,10 +325,12 @@
       </div>
     </div>
 
+    <bebefit-section></bebefit-section>
+
     <div class="tile is-ancestor">
       <div class="tile is-vertical is-12">
         <div class="tile is-parent">
-          <article class="tile is-child notification">
+          <article class="tile is-child">
             <!-- <p class="is-size-3"> เงินรางวัล</p> -->
             <img src="@/assets/title/reward.png" alt="">
             <br><br>
@@ -284,28 +340,28 @@
                   <div>
                     <p class="heading"><img src="https://cdn0.iconfinder.com/data/icons/sport-achievment-badges/128/sport_badges-05-128.png" alt="" srcset=""></p>
                     <p class="subtitle"><u>รางวัลที่ 1</u></p>
-                    <p class="title">300,000 บาท</p>
+                    <p class="title">> 300,000 บาท</p>
                   </div>
                 </div>
                 <div class="level-item has-text-centered">
                   <div>
                     <p class="heading"><img src="https://cdn0.iconfinder.com/data/icons/sport-achievment-badges/128/sport_badges-02-128.png" alt="" srcset=""></p>
                     <p class="subtitle">รางวัลที่ 2</p>
-                    <p class="title">200,000 บาท</p>
+                    <p class="title">> 200,000 บาท</p>
                   </div>
                 </div>
                 <div class="level-item has-text-centered">
                   <div>
                     <p class="heading"><img src="https://cdn0.iconfinder.com/data/icons/sport-achievment-badges/128/sport_badges-02-128.png" alt="" srcset=""></p>
                     <p class="subtitle">รางวัลที่ 3</p>
-                    <p class="title">100,000 บาท</p>
+                    <p class="title">> 100,000 บาท</p>
                   </div>
                 </div>
                 <div class="level-item has-text-centered">
                   <div>
                     <p class="heading"><img src="https://cdn0.iconfinder.com/data/icons/sport-achievment-badges/128/sport_badges-09-128.png" alt="" srcset=""></p>
-                    <p class="subtitle">รางวัลชมเชย <br><span class="is-size-7">(ทุกทีมที่ผ่านเข้ารอบ Final)</span></p>
-                    <p class="title">50,000 บาท</p>
+                    <p class="subtitle">รางวัลชมเชย</p>
+                    <p class="title"></p>
                   </div>
                 </div>
               </nav>
@@ -325,6 +381,11 @@
             <br><br>
             <div class="content">
               <img src="@/assets/roadmap.jpg" alt="" width="80%">
+              <div class="notification is-info" style="background-color:#124387">
+                <button class="delete"></button>
+                <p class="is-size-4">* กำหนดการที่ชัดเจนจะแจ้งให้ทราบภายหลังค่ะ</p>
+              </div>
+              
             </div>
             <br>
           </article>
@@ -357,17 +418,21 @@ export default {
 };
 
 </script>
-<style>
+<style scoped>
   li {
     text-align: left;
   }
   ul {
-      list-style-type: none;
+      
       padding: 0;
   }
   li {
       display: list-item;
       margin: 0 10px;
+  }
+
+  .about-heading {
+    font-size: 1em;
   }
 
   .about-media {

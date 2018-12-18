@@ -2,7 +2,7 @@
   <nav class="navbar is-fixed-top">
     <div class="navbar-brand">
       <router-link class="navbar-item" to="/">
-        <img src="@/assets/logo.png" width="112" height="50">
+        <img src="@/assets/logo-new.png" width="112" height="50">
       </router-link>
       <a role="button" class="navbar-burger" data-target="navbarBrainBase" aria-label="menu" aria-expanded="false">
         <span aria-hidden="true"></span>

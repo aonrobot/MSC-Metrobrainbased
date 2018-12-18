@@ -9,7 +9,7 @@
             <div class="slide slide--5"></div>
         </agile>
 
-        <section class="hero is-link is-bold is-medium">
+        <section class="hero is-bold is-medium">
             <div class="hero-body">
                 <div class="container">
                 <div><font-awesome-icon :icon="['fab', 'fort-awesome']" size="8x"/></div><br>
@@ -36,17 +36,17 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
     ul {
-        list-style-type: none;
-        padding: 0;
+        list-style-type: none!important;
+        padding: 0!important;
     }
     li {
-        display: inline-block;
-        margin: 0 10px;
+        display: inline-block!important;
+        margin: 0 10px!important;
     }
     .agile__arrow agile__arrow--prev, .agile__arrow agile__arrow--next{
-        display: none;
+        display: none!important;
     }
 
     .big-logo{
@@ -57,8 +57,8 @@ export default {
     }
 
     .hero.is-medium .hero-body {
-        padding-bottom: 3rem;
-        padding-top: 3rem;
+        padding-bottom: 3rem!important;
+        padding-top: 3rem!important;
     }
 </style>
 

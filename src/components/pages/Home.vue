@@ -6,39 +6,39 @@
     <slide-section></slide-section>
 
     <section class="hero is-bold is-medium">
-      <div class="hero-body">
+      <div class="hero-body" style="padding: 0rem 0rem;">
         <img src="@/assets/banner.jpg" width="100%">
       </div>
-      <!-- <article v-for="(register, idx) in registers" :key="idx">
+      <!-- <article v-for="(register, idx) in registerCollection" :key="idx">
         <h1>{{ register.projectName }}</h1>
       </article> -->
     </section>
 
     <br><hr><br>
 
-    <nav class="level">
+    <!-- <nav class="level">
       <div class="level-item has-text-centered">
         <div>
           <p class="heading"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-64.png" alt="" srcset=""></p>
           <p class="heading">facebook like</p>
-          <p class="title">3,456</p>
+          <p class="title">273 <small>like</small></p>
         </div>
       </div>
       <div class="level-item has-text-centered">
         <div>
           <p class="heading"><img src="https://cdn1.iconfinder.com/data/icons/business-487/48/20-64.png" alt="" srcset=""></p>
           <p class="heading">registered</p>
-          <p class="title">123</p>
+          <p class="title">{{registerCollection.length}} <small>registered</small></p>
         </div>
       </div>
-    </nav>
+    </nav> -->
 
     <br><hr>
 
     <div class="tile is-ancestor">
       <div class="tile is-vertical is-12">
         <div class="tile is-parent">
-          <article class="tile is-child notification">
+          <article class="tile is-child">
             <!-- <p class="title"><font-awesome-icon :icon="['far', 'lightbulb']" size="lg"/> Think Out Of The Box</p> -->
             <img src="@/assets/title/think_out_box.png" alt="">
             <br><br>
@@ -79,10 +79,10 @@
         </div>
       </div>
     </div>
-    
+
     <hr>
 
-    <benefit-section></benefit-section>
+    <!-- <benefit-section></benefit-section> -->
 
   </div>
 </template>
@@ -92,6 +92,7 @@
 
 import Slide from "@/components/Slide"
 import Benefit from "@/components/Benefit"
+import { db } from "@/main";
 
 export default {
   name: 'HelloWorld',
@@ -108,7 +109,7 @@ export default {
   },
   firestore() {
     return {
-      //registers: db.collection('register')
+      //registerCollection: db.collection('register')
     };
   }
 };

@@ -38,21 +38,21 @@ const ModalForm = {
             <p class="modal-card-title">Register</p>
         </header>
         <section class="modal-card-body">
-
+            <button class="button is-danger" ref="closeBtn" type="button" @click="$parent.close()" style="float:right;">Close</button>
             <div class="columns">
                 <!-- Left side -->
                 <div class="column">
                     <div class="tile is-parent">
-                        <article class="tile is-child notification is-danger">
+                        <article class="tile is-child notification is-info" style="background-color:#00428c;">
                             <p class="title">เงื่อนไขในการสมัคร</p>
                             <p class="subtitle">Register Conditional</p>
                             <div class="content">
                                 <ol>
                                     <li>
-                                        ระหว่างการพิจารณาผลงาน ผู้ที่ส่งโครงการเข้าประกวดยินดีที่จะให้ข้อมูลรายละเอียดเพิ่มเติมเกี่ยวข้องกับผลงาน โดยทางทีมงาน Metro Brain-Based Challenge สามารถติดต่อไป ตามข้อมูลตามที่ผู้เข้าร่วมโครงการได้แจ้งไว้ในใบสมัคร
+                                        ระหว่างการพิจารณาผลงาน ผู้ที่ส่งโครงการเข้าประกวดยินดีที่จะให้ข้อมูลรายละเอียดเพิ่มเติมเกี่ยวข้องกับผลงาน โดยทางทีมงาน Metro Brain-Based StartUp สามารถติดต่อไป ตามข้อมูลตามที่ผู้เข้าร่วมโครงการได้แจ้งไว้ในใบสมัคร
                                     </li>
                                     <li>
-                                        ผลงานที่เข้าประกวดนำเสนอ จะต้องเป็นผลงานที่เกิดจากความคิด ตลอดจนพัฒนาและสร้างสรรค์ขึ้นโดยผู้ส่งผลงานเข้าประกวดเอง และมิได้นำผลงานของผู้อื่นส่งเข้าประกวดโดยมิได้รับอนุญาตหรือมิได้รับมอบอำนาจจากเจ้าของผลงานอย่างเป็นลายลักษณ์อีกษร รวมถึงต้องไม่กระทำการใดเพื่อให้ได้มาซึ่งผลงานโดยมิชอบด้วยกฎหมาย
+                                        ผลงานที่เข้าประกวดนำเสนอ จะต้องเป็นผลงานที่เกิดจากความคิด ตลอดจนพัฒนาและสร้างสรรค์ขึ้นโดยผู้ส่งผลงานเข้าประกวดเอง และมิได้นำผลงานของผู้อื่นส่งเข้าประกวดโดยมิได้รับอนุญาตหรือมิได้รับมอบอำนาจจากเจ้าของผลงานอย่างเป็นลายลักษณ์อักษร รวมถึงต้องไม่กระทำการใดเพื่อให้ได้มาซึ่งผลงานโดยมิชอบด้วยกฎหมาย
                                     </li>
                                     <li>
                                         ขอสงวนสิทธิ์ในการไม่อนุญาตให้ผลงานเข้าประกวด ในกรณีที่มีความเห็นว่าผลงานที่ส่งเข้าประกวดไม่เหมาะสมกับวัตถุประสงค์หรือ เจตนารมณ์ของการประกวดในครั้งนี้
@@ -115,9 +115,9 @@ const ModalForm = {
                   position="is-right"
                   multilined>
                   <b-radio-button v-model="registerTypeM"
-                      native-value="Bussiness Solution"
+                      native-value="Business Solution"
                       type="is-info">
-                      <span>Bussiness Solution</span>
+                      <span>Business Solution</span>
                   </b-radio-button>
               </b-tooltip>
               <b-tooltip
@@ -127,9 +127,9 @@ const ModalForm = {
                   position="is-right"
                   multilined>
                   <b-radio-button v-model="registerTypeM"
-                      native-value="Bussiness Model Innovation"
+                      native-value="Business Model Innovation"
                       type="is-info">
-                      <span>Bussiness Model Innovation</span>
+                      <span>Business Model Innovation</span>
                   </b-radio-button>
               </b-tooltip>
             </b-field>
@@ -268,13 +268,13 @@ const ModalForm = {
                         size="is-medium"
                         type="is-success"
                         native-value="agree">
-                        Agree
+                        ยอมรับ
                     </b-radio>
                     <b-radio v-model="conditionRadio" 
                         size="is-medium"
                         type="is-danger"
                         native-value="disagree">
-                        Disagree
+                        ไม่ยอมรับ
                     </b-radio>
                 </div>
             </b-field>
@@ -282,7 +282,7 @@ const ModalForm = {
         </section>
         <footer class="modal-card-foot">
             <button class="button" ref="closeBtn" type="button" @click="$parent.close()">Close</button>
-            <button class="button is-primary" type="submit" @click="addRegister()">Register</button>
+            <button class="button is-info" type="submit" @click="addRegister()">Register</button>
         </footer>
         <b-loading :is-full-page="isFullPage" :active.sync="isLoading" :can-cancel="true"></b-loading>
     </div>
@@ -437,7 +437,8 @@ export default {
         parent: this,
         component: ModalForm,
         width: 1060,
-        hasModalCard: true
+        hasModalCard: true,
+        canCancel: false
       });
     }
   }

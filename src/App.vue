@@ -26,7 +26,6 @@ export default {
 </script>
 
 <style>
-
   h1,
   h2 {
       font-weight: normal;
@@ -43,11 +42,11 @@ export default {
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    margin-top: 81.55px;
+    margin-top: 131.91px;
     /* margin-bottom: 60px; */
   }
   svg{
-    margin-right: 0.43em;
+    margin-right: 0.43em!important;
   }
 
   .modal-content {
@@ -60,11 +59,7 @@ export default {
     }
   }
 
-  .notification {
-    background-color: white;
-  }
-
   .subtitle {
-    padding-bottom:1em;
+    padding-bottom:1em!important;
   }
 </style>

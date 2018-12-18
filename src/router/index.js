@@ -4,6 +4,7 @@ import Home from '@/components/pages/Home'
 import About from '@/components/pages/About'
 import Coach from '@/components/pages/Coach'
 import ContactUs from '@/components/pages/ContactUs'
+import Report from '@/components/pages/Report'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/contactus',
       name: 'ContactUs',
       component: ContactUs
+    },
+    {
+      path: '/adminreport',
+      name: 'Report',
+      component: Report
     }
   ]
 })
